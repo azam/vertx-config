@@ -36,6 +36,7 @@
     <module>vertx-config</module>
     <module>vertx-config-hocon</module>
     <module>vertx-config-yaml</module>
+    <module>vertx-config-toml</module>
     <module>vertx-config-spring-config-server</module>
     <module>vertx-config-kubernetes-configmap</module>
     <module>vertx-config-redis</module>

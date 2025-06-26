@@ -1,0 +1,42 @@
+# some comments
+top_string = "top_string"
+top_string_array = ["string0", "string1", "string2"]
+top_integer = 1
+top_float = 1.1
+top_boolean = true
+
+top_offset_datetime1 = 2020-01-01T12:00:00Z
+top_offset_datetime2 = 2020-01-01T12:00:00+13:00
+top_local_datetime = 2020-01-01T12:00:00
+top_local_date = 2020-01-01
+top_local_time = 12:00:00
+
+[table]
+table_string = "table_string"
+table_string_array = ["string0", "string1", "string2"]
+table_integer = 2
+table_float = 2.2
+table_boolean = true
+
+[table.subtable]
+subtable_string = "subtable_string"
+subtable_string_array = ["string0", "string1", "string2"]
+subtable_integer = 3
+subtable_float = 3.3
+subtable_boolean = true
+
+[[table_array]]
+table_array_string = "table_array_string0"
+table_array_string_array = ["string0", "string1", "string2"]
+table_array_integer = 4
+table_array_float = 4.4
+table_array_boolean = true
+
+[[table_array]]
+table_array_string = "table_array_string1"
+table_array_string_array = ["string0", "string1", "string2"]
+table_array_integer = 5
+table_array_float = 5.5
+table_array_boolean = true
+
+
