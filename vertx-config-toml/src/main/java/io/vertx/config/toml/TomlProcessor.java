@@ -47,11 +47,6 @@ public class TomlProcessor implements ConfigProcessor {
 
   @Override
   public Future<JsonObject> process(Vertx vertx, JsonObject configuration, Buffer input) {
-    if (input.length() == 0) {
-      // the parser does not support empty files, which should be managed to be homogeneous
-      return ((ContextInternal) vertx.getOrCreateContext()).succeededFuture(new JsonObject());
-    }
-
     // Use executeBlocking even if the bytes are in memory
     return vertx.executeBlocking(() -> {
       try {
